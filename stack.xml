@@ -1,11 +1,12 @@
 <stack>
-  <description brief="WG hardware testing tools">Hardware testing tools and utilities. Willow Garage use only.</description>
-  <author>Maintained by Kevin Watts</author>
+  <description brief="Controls status indicator light for Test Manager">
+Controls Delcom USB indicator light with the status of Test Manager.
+  </description>
+  <author>Maintained by Austin Hendrix</author>
   <license>BSD</license>  
   <review status="unreviewed" notes=""/>
-  <url>http://ros.org/wiki/wg_hardware_test</url>
+  <url>http://ros.org/wiki/wgtest_status_indicator</url>
   <depend stack="pr2_self_test" /> <!-- pr2_self_test_msgs -->
-  <!-- <depend stack="ros" /> -->
   <depend stack="ros_comm" /> <!-- roscpp -->
 
 </stack>
