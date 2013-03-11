@@ -1,0 +1,11 @@
+<stack>
+  <description brief="WG hardware testing tools">Hardware testing tools and utilities. Willow Garage use only.</description>
+  <author>Maintained by Kevin Watts</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/wg_hardware_test</url>
+  <depend stack="pr2_self_test" /> <!-- pr2_self_test_msgs -->
+  <!-- <depend stack="ros" /> -->
+  <depend stack="ros_comm" /> <!-- roscpp -->
+
+</stack>
